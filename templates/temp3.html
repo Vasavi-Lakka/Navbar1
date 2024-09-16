@@ -1,0 +1,35 @@
+{% extends 'dummy.html' %}
+{% block body_block %}
+{% block title %}
+<title>temp3</title>
+{% endblock %}
+
+<center>
+    <h1>This is Card items</h1>
+    <div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">
+              List of Items
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <div class="card">
+            <div class="card-header">
+            Featured
+            </div>
+            <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+</center>
+
+{% endblock %}
